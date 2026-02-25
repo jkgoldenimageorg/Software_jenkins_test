@@ -1,9 +1,9 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: Jenkins-Test-template
-  title: Jenkins-Test template
-  description: Jenkins-Test template
+  name: Github-Jenkins-ArgoCD Template
+  title: Github-Jenkins-ArgoCD Template
+  description: Showcase the flow from Github to ArgoCD
 spec:
   owner: development
   type: service
@@ -69,6 +69,7 @@ spec:
       - title: Repository
 
         url: ${{ steps['publish'].output.remoteUrl }}
+
 
 
 
