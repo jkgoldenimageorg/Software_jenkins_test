@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: Github-Jenkins-ArgoCD Template
+  name: Github-Jenkins-ArgoCD-Template
   title: Github-Jenkins-ArgoCD Template
   description: Showcase the flow from Github to ArgoCD
 spec:
@@ -69,6 +69,7 @@ spec:
       - title: Repository
 
         url: ${{ steps['publish'].output.remoteUrl }}
+
 
 
 
