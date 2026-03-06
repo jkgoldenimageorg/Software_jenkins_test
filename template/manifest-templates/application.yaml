@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/jk7testorg/k8s-manifest.git
+    repoURL: https://github.com/jkgoldenimageorg/k8s-manifest.git
     targetRevision: main
     path: apps/${APP_NAME}
   destination:
@@ -17,4 +17,5 @@ spec:
       prune: true
 
       selfHeal: true
+
 
